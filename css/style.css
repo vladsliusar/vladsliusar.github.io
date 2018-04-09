@@ -58,7 +58,7 @@
   margin-left: 25px; 
   border-width:1px;
   width: 95%;
-  opacity: 0.8;
+  opacity: 1;
   filter: alpha(opacity=80);
 }
 
@@ -173,7 +173,16 @@ a {
 }
 
 a:hover {
-  color: #377799;
+    color: #60a5dd;
+    text-decoration: none
+}
+
+a:focus {
+    outline: thin dotted
+}
+
+a:hover, a:active {
+    outline: 0
 }
 
 p2{
@@ -185,6 +194,7 @@ p2{
 label{
     font-size:16px;
     color:#2e2e2e;
+    cursor: pointer
 }
 #send_button{
     color:#fff;
@@ -202,6 +212,7 @@ label{
     border: none;
     border-radius: 4px;
     font-size: 16px;
+    cursor: pointer;
 }
 /* Navbar hover effects */
 .navbar-default .navbar-brand:hover,
@@ -327,7 +338,7 @@ body {
 /* When you mouse over the container, fade in the overlay title */
 .container4:hover .overlay {
   opacity: 1;
-  cursor: pointer;
+  
 }
 
 /* Make the image responsive */
