@@ -30,6 +30,7 @@
   font-size: 19px; 
   font-weight: ;
   font-family: lato;
+  cursor: pointer;
 }
 
 /*navigation bar placed on the right side */
@@ -262,6 +263,7 @@ body {
   font-family: lato;
   background-color: #fff;
   color:  gray;
+  cursor: pointer;
      
 }
 
@@ -287,42 +289,45 @@ body {
 /* When you mouse over the container, fade in the overlay title */
 .container1:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 /* Container needed to position the overlay. */
 .container2 {
   position: relative;
   width: 100%;
-  max-width: 2000px;
+ 
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container2:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 /* Container needed to position the overlay. */
 .container3 {
   position: relative;
   width: 100%;
-  max-width: 2000px;
+  
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container3:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 /* Container needed to position the overlay. */
 .container4 {
   position: relative;
   width: 100%;
-  max-width: 2000px;
 }
 
 /* When you mouse over the container, fade in the overlay title */
 .container4:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 /* Make the image responsive */
@@ -336,11 +341,11 @@ body {
 .overlay {
   position: absolute; 
   bottom: 1px; 
-  left:25.75px;
+  left: 25.25px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 94.8%;
+  width: 94.9%;
   transition: 0.5s ease;
   opacity:0;
   color: white;
@@ -349,6 +354,7 @@ body {
   padding: 20px;
   text-align: center;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 
