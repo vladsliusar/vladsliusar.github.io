@@ -3,38 +3,57 @@
   background-color: #fff;
   border-radius: 0;
   background-image: none;
-  padding: 1.5%   
+  padding: 0.9%
 }
 
+.image_logo{
+    width:55px;
+    margin:px;
+    margin-left:8px;
+    float:left;
+}
+
+/*class smaller logo on scroll down*/
+.image_logo.smaller{
+    width:45px;
+    margin:2px;
+    margin-left:13px;
+    float:left;
+}
+
+
 /* Navbar title */
-.navbar-default .navbar-brand {
-  color: #1c3757;
-  font-size: 45px;
+/*.navbar-default .image_logo {
+  /*color:#1c3757; /*#1c3757*/
+  /*font-size: 45px;
   font-weight: bold;
   letter-spacing: -18.5px;
   -webkit-text-stroke: 0px white;
-  text-shadow: 2px 2px 4px #000;/*shadow affect -3d*/
-}
+  text-shadow: 3px 3px 5px #1c3757;
+  background-image: url("../assets/my_logo_v2.png")no-repeat;
+    width: 90px; height: 80px; display: block; text-indent: -9999px;
+}*/
 
 /* Navbar hover effects */
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #1c3757;
+    color: #375D81;
+    font-size-adjust: auto;
 }
 
 /* Navbar links*/
 .navbar-default .navbar-nav > li > a {
-  color: rgb(103,161,211);
-  font-size: 19px; 
-  font-weight: ;
+  color: #67A1D3;
+  font-size: 18px;
+  font-weight:normal;
   font-family: lato;
   cursor: pointer;
+  margin-top:4px;
 }
 
+
 /*navigation bar placed on the right side */
-#nav_ul {	
+#nav_ul {
   list-style: none;
   margin: 0 auto;
   float: right;
@@ -42,12 +61,12 @@
 
 /* Navbar collapsed styles */
 .navbar-header .navbar-toggle {
-  color: #377799;
+  color:  #375D81; /*#67a1d3*/
 }
 
 .navbar-header .navbar-toggle:hover,
 .navbar-header .navbar-toggle:focus {
-  background-color: #377799;
+  background-color: #375D81; /*#1c3757*/
   color: #fff; /*color of menu when hover*/
 }
 
@@ -55,7 +74,7 @@
 .portfolio-thumbnail {
   background-color: white;
   border-color: gainsboro;
-  margin-left: 25px; 
+  margin-left: 25px;
   border-width:1px;
   width: 95%;
   opacity: 1;
@@ -63,7 +82,7 @@
 }
 
 .portfolio-thumbnail:hover {
-  box-shadow: 0 0 3px 3px rgba(55, 119, 153, 0.7);
+  box-shadow: 0 0 1px 1px #375D81;
   opacity: 1;
   filter: alpha(opacity=100);
 }
@@ -80,23 +99,26 @@
 }
 
 #my-photo {
-  max-height: 200px;
-  opacity: 0.9;
-  border-radius: 30px;
+  margin-top:10px;
+  max-height: 180px;
+  opacity: 0.85;
+  border-radius: 20px;
   margin-bottom: 20px;
 }
+
 
 /*resume logos start*/
 #PGE{
   max-height: 50px;
   margin-right: 60px;
   margin-top: 13px;
+  
 }
 
 #RecurrentEnergy{
   max-height: 70px;
   margin-right: 70px;
-  margin-top: 5px  
+  margin-top: 5px
 }
 
 #UW-Madison {
@@ -113,12 +135,32 @@
 }
 /*resume logos end*/
 
+
+/* projects - widtth of img*/
+#clean_energy{
+    width: 85%;
+}
+#sf311{
+    width: 85%;
+}
+#geog690{
+    width: 85%;
+}
+#gwr{
+    width: 85%;
+}
+#ols{
+    width: 85%;
+}
+
+
 /*border line*/
 hr {
   border-color: gra;
   border-width: 2px;
   font-family:lato;
 }
+
 
 h3 {
   font-weight: bold;
@@ -136,24 +178,28 @@ h4 {
 }
 
 h5{
-    margin-top:5px;
+    font-size: 22px;
 	font-family:lato;
+    color: #212121;
+    text-align: center;
+    font-weight: normal;
 }
 
 /*About, description under name*/
 h6{
-    text-shadow: 2px 2px 4px #fff; 
-    color:#1c3757; /*#1c3757, #1c3757*/
+    text-shadow: 0.5px 0.5px 1px #;
+    color:#fff; /*#1c3757, #2c4957*/
     font-size: 23px;
     font-size:2.7vh;
-    font-weight:;
+    font-weight:bold;
     font-family:lato;
 }
 
 p {
-  margin-top: 5px;
+  margin-top:3px;
+    margin-bottom:20px;
   font-size: 16.5px;
-  color: #2e2e2e; 
+  color: #2e2e2e;
   font-family: lato;
 }
 
@@ -169,11 +215,13 @@ ul{
 }
 
 a {
-  color: #2e2e2e; 
+ color: #67A1D3;
+ font-weight:bolder;
+ font-size: 16.5px;
 }
 
 a:hover {
-    color: #60a5dd;
+    color: #375D81;
     text-decoration: none
 }
 
@@ -186,7 +234,7 @@ a:hover, a:active {
 }
 
 p2{
-    margin-top: 100px; 
+    margin-top: 100px;
 	font-family: lato;
 }
 
@@ -198,7 +246,7 @@ label{
 }
 #send_button{
     color:#fff;
-    background-color: rgb(103,161,211);
+    background-color:#375D81;/*#51a79a*/
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
@@ -207,7 +255,7 @@ label{
 }
 #reset_button{
     color:#fff;
-    background-color: rgb(103,161,211);
+    background-color: #375D81;/*rgb(103,161,211)*/
     padding: 8px 16px;
     border: none;
     border-radius: 4px;
@@ -219,21 +267,24 @@ label{
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #1c3757;
+    color: #375D81;
 }
 
 /* Style inputs with type="text" */
 input[type=text], textarea {
     width: 70%; /* Full width */
-    padding: 9px;  
-    border: 1px solid #ccc; 
+    padding: 9px;
+    border: 1px solid #ccc;
     border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; 
+    box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
     resize: vertical /* vertically resize the textarea*/
 }
 
+.container_resume{
+    max-width: 1000px;
+}
 /* background color and padding around the form */
 .container_contact {
     border-radius: 5px;
@@ -242,30 +293,23 @@ input[type=text], textarea {
 }
 /*contact form end*/
 
-
 .jumbotron {
-background-image: url("../assets/road_Maui_v2.png");
+background-image: url("../assets/background_image.png");
    /*background-image:
-    linear-gradient(
-      to left, 
-   #B0E0E6  /*OR B0E0E6 OR color:xs skyblue*/, #377799,#1c3757);*/
+    linear-gradient(#1c3757,
+rgb(103,161,211)  /*OR B0E0E6 OR color:xs skyblue*/);*/
 background-repeat: no-repeat;
 background-size: cover;
-text-align: left;
-opacity: ;
-color: ;
-padding: 6%;
-
+padding:8%;
 }
 
-
 .jumbotron h2 {
-font-size:75px; 
-font-size: 8vh;
+font-size:75px;
+font-size: 7.8vh;
 font-weight:normal;
 font-family:lato;
-color: white;
-text-shadow: 2px 2px 4px #2e2e2e;
+color:#fff;/*#1c3757*/
+text-shadow: 0.5px 0.5px 1px #;
 letter-spacing: 15px
 }
 
@@ -273,9 +317,8 @@ body {
   padding-top: 50px;
   font-family: lato;
   background-color: #fff;
-  color:  gray;
   cursor: pointer;
-     
+
 }
 
 /*rights reserved*/
@@ -307,7 +350,7 @@ body {
 .container2 {
   position: relative;
   width: 100%;
- 
+
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -320,7 +363,7 @@ body {
 .container3 {
   position: relative;
   width: 100%;
-  
+
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -338,8 +381,31 @@ body {
 /* When you mouse over the container, fade in the overlay title */
 .container4:hover .overlay {
   opacity: 1;
-  
+
 }
+
+/* Container needed to position the overlay. */
+.container5 {
+  position: relative;
+  width: 100%;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container5:hover .overlay {
+  opacity: 1;
+}
+
+/* Container needed to position the overlay. */
+.container6 {
+  position: relative;
+  width: 100%;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container6:hover .overlay {
+  opacity: 1;
+}
+
 
 /* Make the image responsive */
 .image {
@@ -350,12 +416,12 @@ body {
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
-  position: absolute; 
-  bottom: 1px; 
+  position: absolute;
+  bottom: 1px;
   left: 25.25px;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
+  color: #f1f1f1;
   width: 94.9%;
   transition: 0.5s ease;
   opacity:0;
@@ -371,14 +437,15 @@ body {
 
 /*shrink navbar on scroll down*/
 nav.shrink.navbar-default{
-padding-top: 5px !important;
-  padding-bottom: 5px !important;
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
+
 
 #researchproject{
 	font-style: italic;
 	font-size: 16.5px;
-	
+
 }
 
 /* social media icons */

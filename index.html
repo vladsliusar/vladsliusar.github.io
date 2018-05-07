@@ -7,9 +7,9 @@
 		<title>Vladimir Sliusar</title>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
-        
+
             <!--favicon start-->
-            <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png">
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
             <link rel="manifest" href="/site.webmanifest">
@@ -36,40 +36,43 @@
 				 <span class="glyphicon glyphicon-menu-hamburger"></span><span class="mobile-menu"> Menu</span>
 		       </button> <!-- Hamburger button for smaller devices -->
 
-               <a class="navbar-brand" href="index.html" style="font-family: garamond;">VS</a> <!-- Brand -->
+                <a href="index.html"> <!--logo as link to index-->
+                <img src="assets/logo.png" alt="logo" class="image_logo" class="smaller" id="logo"/> <!-- Brand -->
+                </a>
+
 		   </div>
-            
+
 		    <!--nav links, forms, and other content for toggling -->
 		    <div id="navbar" class="collapse navbar-collapse">
 		      <ul class="nav navbar-nav" id="nav_ul">
-		        <li><a href="index.html"style="color: #1c3757;">About</a></li>
-				<li><a href="work.html">Work</a></li>  
+		        <li><a href="index.html"style="color: #375D81;">About</a></li>
+				<li><a href="work.html">Work</a></li>
 		        <li><a href="resume.html">Resume</a></li>
                 <li><a href="contact.html">Contact</a></li>
 		      </ul>
 		    </div> <!--/.navbar-collapse -->
 		  </div> <!--/.container -->
 		</nav> <!--/navigation bar -->
-        
-        
+
+
 		  <div class="jumbotron">
               <div class="container">
                   <br><br><br><br><br><br>
-                  <h2><center>Vladimir Sliusar </center></h2>
+                  <h2><center><strong>Vladimir</strong> Sliusar</center></h2>
                   <h6><center>Creative and passionate GIS developer and cartographer. </center></h6>
                   <br><br><br><br>
               </div>
           </div>
-            
-        
+
+
 		  <div class="container">
 			  <div class="row">
 				  <div class="col-md-3 col-md-offset-0 col-sm-3 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-					  <img src="assets/Portfolio_photo.png" alt="my photo" class="img-responsive center-block" id="my-photo" />
+					  <img src="assets/Portfolio_photo_v2.png" alt="my photo" class="img-responsive center-block" id="my-photo" />
 				  </div>
 				  <div class="col-md-9 col-md-offset-0 col-sm-9 col-sm-offset-0 col-xs-10 col-xs-offset-1">
 				        <p>
-							Hello, I’m Vladimir Sliusar, and I go by Vlad. I’m a driven GIS professional with several years of experience in spatial data analysis, GIS scripting, web map creation, and geospatial database design, operations and implementation. 
+							Hello, I’m Vladimir Sliusar, I go by Vlad. I’m a driven GIS professional with several years of experience in spatial data analysis, GIS scripting, web map creation, and geospatial database design, operations and implementation.
                         </p>
 						 <p>
 				            I received my BA in Geography at San Francisco State University and am currently pursuing a Master’s in GIS Development from the University of Wisconsin-Madison.
@@ -82,20 +85,20 @@
 						</p>
 
                     	 <p>
-                            Check out my <a href="resume.html"><strong> <u>resume</u></strong></a> and <a href="work.html"><u><strong>work </strong></u></a>sections for more details about my background and experience.
+                            Check out my <a href="resume.html">resume</a> and <a href="work.html">work</a> sections for more details about my background and experience.
 						 </p>
 						  <p>
-							I look forward to connecting with you. <a href="contact.html"><strong><u>Get in touch</u></strong>.</a>
+							I look forward to connecting with you. <a href="contact.html">Get in touch.</a>
 						 </p>
                     <!-- Add icon library -->
-                      
-                    
-            <!-- Social media icons -->        
+
+
+            <!-- Social media icons -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <a href="https://github.com/vladsliusar" class="fa fa-github"></a>
             <a href="https://linkedin.com/in/vlad-sliusar-035229161" class="fa fa-linkedin"></a>
 
-     
+
                     <div id="footer">
                         <hr><br>
                         <footer>
@@ -103,19 +106,21 @@
                             <p2>last updated: 2018</p2>
                         </footer>
                     </div>
-                      
-                      
+
+
 				`</div>
 			</div>
 		</div>
 
-        
+
 		<!--external script links-->
         <script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="navbar_resize.js"></script> <!--navbar resize on scroll down .js file, root folder-->
+        <script type="text/javascript" src="logo_resize.js"></script>--> <!--logo resize on scroll down .js file, root folder-->
+        <!--<script type="text/javascript" src="logo_resize_mobile.js"></script>-->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.min.js"></script>
         <script type="text/javascript" src="lib/bootstrap.min.js"></script>
-		
-        
+
+
 	</body>
 </html>
