@@ -253,6 +253,10 @@ label{
     cursor: pointer;
     font-size: 16px;
 }
+#send_button:hover {
+    background-color: #67A1D3;
+}
+
 #reset_button{
     color:#fff;
     background-color: #375D81;/*rgb(103,161,211)*/
@@ -262,6 +266,11 @@ label{
     font-size: 16px;
     cursor: pointer;
 }
+#reset_button:hover {
+    background-color: #67A1D3;
+}
+
+
 /* Navbar hover effects */
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -310,7 +319,7 @@ font-weight:normal;
 font-family:lato;
 color:#fff;/*#1c3757*/
 text-shadow: 0.5px 0.5px 1px #;
-letter-spacing: 15px
+letter-spacing: 0.9vw;
 }
 
 body {
@@ -338,6 +347,7 @@ body {
   position: relative;
   width: 100%;
   max-width: px;
+  margin-left:5px;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -350,7 +360,7 @@ body {
 .container2 {
   position: relative;
   width: 100%;
-
+  margin-left:5px;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -363,7 +373,7 @@ body {
 .container3 {
   position: relative;
   width: 100%;
-
+  margin-left:5px;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -376,6 +386,7 @@ body {
 .container4 {
   position: relative;
   width: 100%;
+  margin-left:5px;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -388,6 +399,7 @@ body {
 .container5 {
   position: relative;
   width: 100%;
+  margin-left:5px;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -399,6 +411,7 @@ body {
 .container6 {
   position: relative;
   width: 100%;
+  margin-left:5px;
 }
 
 /* When you mouse over the container, fade in the overlay title */
