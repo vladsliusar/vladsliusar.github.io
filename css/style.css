@@ -135,6 +135,9 @@
 }
 /*resume logos end*/
 
+.txt:hover {
+    text-decoration: underline;
+}
 
 /* projects - widtth of img*/
 #clean_energy{
@@ -258,15 +261,16 @@ label{
 }
 
 #reset_button{
-    color:#fff;
-    background-color: #375D81;/*rgb(103,161,211)*/
+    color:#2e2e2e;
+    background-color: #fff;/*rgb(103,161,211)*/
     padding: 8px 16px;
-    border: none;
+    border: 1.2px solid #DFDFDF;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
 }
 #reset_button:hover {
+    color: #fff;
     background-color: #67A1D3;
 }
 
