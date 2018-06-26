@@ -162,8 +162,8 @@ function createSequenceControls(map, attributes){
         step: 1
     });
     // set skip buttons attributes
-   $('#reverse').html('<img src="img/reverse_v2.png">');
-   $('#forward').html('<img src="img/forward_v2.png">');
+   $('#reverse').html('<img src="assets/reverse_v2.png">');
+   $('#forward').html('<img src="assets/forward_v2.png">');
 
    //click listener for buttons
    $('.skip').click(function(){
