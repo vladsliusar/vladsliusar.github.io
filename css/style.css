@@ -112,7 +112,7 @@
   max-height: 50px;
   margin-right: 60px;
   margin-top: 13px;
-  
+
 }
 
 #RecurrentEnergy{
@@ -420,6 +420,18 @@ body {
 
 /* When you mouse over the container, fade in the overlay title */
 .container6:hover .overlay {
+  opacity: 1;
+}
+
+/* Container needed to position the overlay. */
+.container7 {
+  position: relative;
+  width: 100%;
+  margin-left:5px;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container7:hover .overlay {
   opacity: 1;
 }
 
