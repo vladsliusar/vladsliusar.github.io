@@ -87,8 +87,11 @@
 }
 
 .portfolio-title {
-  font-weight: bold;
-  color:#2e2e2e
+  font-size: 32px;
+  font-family: Poppins;
+  font-weight: 600;
+  color:#2e2e2e;
+  text-align: center;
 }
 
 .portfolio-description {
@@ -171,6 +174,8 @@ h1 {
   text-align: center;
 }
 
+
+
 h3 {
   font-weight: bold;
   color: #2e2e2e;
@@ -243,9 +248,19 @@ a:hover, a:active {
 }
 
 p2{
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+  
 	font-family: lato;
     color: #999999;
+    font-size:14px;
+    text-align: center;
+}
+/*rights reserved*/
+#footer{
+    margin-top: 80px;
+    margin-bottom: 35px;
+    text-align: center;
 }
 
 /*contact form start*/
@@ -342,13 +357,7 @@ body {
 
 }
 
-/*rights reserved*/
-#footer{
-    margin-top: 80px;
-    margin-bottom: 30px;
-    margin-left: px;
-    color: dimgray
-}
+
 
 @media (min-width: 1200px) {
     .container{
