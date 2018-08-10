@@ -1,3 +1,5 @@
+
+
 /***** NAVBAR *****/
 .navbar-default {
   background-color: #fff;
@@ -44,8 +46,8 @@
 /* Navbar links*/
 .navbar-default .navbar-nav > li > a {
   color: #67A1D3;
-  font-size: 18px;
-  font-weight:normal;
+  font-size: 20px;
+  font-weight: 400;
   font-family: lato;
   cursor: pointer;
   margin-top:4px;
@@ -73,8 +75,7 @@
 /*** Portfolio pieces ***/
 .portfolio-thumbnail {
   background-color: white;
-  border-color: gainsboro;
-  margin-left: 25px;
+  border-color: white;
   border-width:1px;
   width: 95%;
   opacity: 1;
@@ -82,9 +83,7 @@
 }
 
 .portfolio-thumbnail:hover {
-  box-shadow: 0 0 1px 1px #375D81;
-  opacity: 1;
-  filter: alpha(opacity=100);
+
 }
 
 .portfolio-title {
@@ -159,11 +158,18 @@
 
 /*border line*/
 hr {
-  border-color: gra;
-  border-width: 2px;
-  font-family:lato;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  opacity: 0.7;
 }
 
+h1 {
+  font-weight:500;
+  color: #333333;
+  font-size: 40px;
+  font-family: Poppins;
+  text-align: center;
+}
 
 h3 {
   font-weight: bold;
@@ -193,9 +199,9 @@ h6{
     text-shadow: 0.5px 0.5px 1px #;
     color:#fff; /*#1c3757, #2c4957*/
     font-size: 23px;
-    font-size:2.7vh;
-    font-weight:bold;
-    font-family:lato;
+    font-size:2.5vh;
+    font-weight:500;
+    font-family:Poppins;
 }
 
 p {
@@ -220,7 +226,7 @@ ul{
 a {
  color: #67A1D3;
  font-weight:bolder;
- font-size: 16.5px;
+ font-size: 17px;
 }
 
 a:hover {
@@ -239,6 +245,7 @@ a:hover, a:active {
 p2{
     margin-top: 100px;
 	font-family: lato;
+    color: #999999;
 }
 
 /*contact form start*/
@@ -285,7 +292,7 @@ label{
 
 /* Style inputs with type="text" */
 input[type=text], textarea {
-    width: 70%; /* Full width */
+    width: 97%; /* Full width */
     padding: 9px;
     border: 1px solid #ccc;
     border-radius: 4px; /* Rounded borders */
@@ -313,14 +320,15 @@ background-image: url("../assets/background_image.png");
 rgb(103,161,211)  /*OR B0E0E6 OR color:xs skyblue*/);*/
 background-repeat: no-repeat;
 background-size: cover;
-padding:8%;
+padding:7%;
+/*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/background_image.png");*/
 }
 
 .jumbotron h2 {
 font-size:75px;
-font-size: 7.8vh;
-font-weight:normal;
-font-family:lato;
+font-size: 7vh;
+font-weight:500;
+font-family:Poppins;
 color:#fff;/*#1c3757*/
 text-shadow: 0.5px 0.5px 1px #;
 letter-spacing: 0.9vw;
@@ -342,97 +350,83 @@ body {
     color: dimgray
 }
 
-
-
-* {box-sizing: border-box}
-
-/* Container needed to position the overlay. */
-.container1 {
-  position: relative;
-  width: 100%;
-  max-width: px;
-  margin-left:5px;
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
 }
 
+#experience-container{
+    background-color: #f5fbf9;
+    width: 120%;
+    padding: 20px;
+}
+
+#main-resume{
+    background-color: #eff1f2;  /*#f5fbf9 #eff1f2 #eef5f9*/
+}
+
+#resume{
+    background-color: #fff;
+    padding: 30px;
+}
+
+#main-projects{
+    background-color: #eff1f2;
+}
+#main-canada{
+    background-color: #f5fbf9; 
+}
+#main-cleanEnergy{
+    background-color: #eff1f2; 
+}
+#main-GWR{
+    background-color: #eff1f2;
+}
+#form-wrapper{
+    background-color: #eff1f2;
+    padding-left:30px;
+    padding-bottom:30px;
+    padding-top:5px;
+    padding-right:3px;
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+}
 /* When you mouse over the container, fade in the overlay title */
-.container1:hover .overlay {
+#overlay1:hover .overlay {
   opacity: 1;
   cursor: pointer;
 }
-
-/* Container needed to position the overlay. */
-.container2 {
-  position: relative;
-  width: 100%;
-  margin-left:5px;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container2:hover .overlay {
+#overlay2:hover .overlay {
   opacity: 1;
   cursor: pointer;
 }
-
-/* Container needed to position the overlay. */
-.container3 {
-  position: relative;
-  width: 100%;
-  margin-left:5px;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container3:hover .overlay {
+#overlay3:hover .overlay {
   opacity: 1;
   cursor: pointer;
 }
-
-/* Container needed to position the overlay. */
-.container4 {
-  position: relative;
-  width: 100%;
-  margin-left:5px;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container4:hover .overlay {
+#overlay4:hover .overlay {
   opacity: 1;
-
+  cursor: pointer;
 }
-
-/* Container needed to position the overlay. */
-.container5 {
-  position: relative;
-  width: 100%;
-  margin-left:5px;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container5:hover .overlay {
+#overlay5:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
-
-/* Container needed to position the overlay. */
-.container6 {
-  position: relative;
-  width: 100%;
-  margin-left:5px;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container6:hover .overlay {
+#overlay6:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
-
-/* Container needed to position the overlay. */
-.container7 {
-  position: relative;
-  width: 100%;
-  margin-left:5px;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.container7:hover .overlay {
+#overlay7:hover .overlay {
   opacity: 1;
+  cursor: pointer;
+}
+#overlay8:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
 }
 
 
@@ -445,11 +439,12 @@ body {
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
+  max-width: 891px;
   position: absolute;
-  bottom: 1px;
-  left: 25.25px;
+  left: 16px;
+  bottom: 21px;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.7); 
   color: #f1f1f1;
   width: 94.9%;
   transition: 0.5s ease;
