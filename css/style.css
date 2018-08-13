@@ -330,55 +330,103 @@ input[type=text], textarea {
 
 
 /*background video*/
-#projects-video {
-    padding-top:40px;
-    margin-bottom: 320px;
-    position: relative;
-    padding-left: -25px;
-
+.video-container {
+  position: relative;
+    margin-top:2.3vw;
+    
 }
 
-#projects-video #page-title{
-    position: absolute;
-    top: 39px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
-    color: whitesmoke;
-    text-shadow: 0px 1px 10px #000;
-    width: 100%;  
-    padding:17%
+video {
+  
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
 }
+
+.overlay-desc {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
 
 #h1-pageTitle{
-    margin-top:px;
     color:white;
     font-family: 'Poppins';
-    font-size: 8vh;
+    font-size: 4.2vw;
+    
     letter-spacing: 2px;/*0.9vw*/
     font-weight: 500;
+    text-align: center;
+    text-shadow: 0px 1px 10px #000;
+   padding-top:17vw;
 }
+
 #h6-pageTitle{
+    margin-top:-0.5vw;
     color:white;
-    font-family: Poppins;
-    font-size: 30px;
-   line-height: 55px;
+    font-family: 'Poppins';
+    font-size: 1.8vw;
     font-family: 'Poppins';
     font-weight: 600;
     letter-spacing: -1px;
-    margin-top: -15px
+    text-align: center;
+    text-shadow: 0px 1px 10px #000;  
+}
+
+@media only screen and (max-width: 80em) { 
+   #h1-pageTitle{
+       padding-top:16vw;
+       font-size: 4.4vw;
+    }
+    #h6-pageTitle{
+       font-size: 1.8vw;
+        margin-top:-0.8vw;
+    }
+}
+
+@media only screen and (max-width: 55em) { 
+   #h1-pageTitle{
+       padding-top:14.5vw;
+       font-size: 5vw;
+    }
+    #h6-pageTitle{
+       font-size: 2vw;
+        margin-top:-1.5vw;
+    }
 }
 
 
-/*background image*/
-.jumbotron {
-background-image: url("../assets/background_image.png");
-   /*background-image:
-    linear-gradient(#1c3757,
-rgb(103,161,211)  /*OR B0E0E6 OR color:xs skyblue*/);*/
-background-repeat: no-repeat;
-background-size: cover;
-padding:7%;
-/*background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/background_image.png");*/
+@media only screen and (max-width: 40em) { 
+   #h1-pageTitle{
+       padding-top:14vw;
+       font-size: 5vw;
+    }
+    #h6-pageTitle{
+       font-size: 2.3vw;
+        margin-top:-2vw;
+    }
+    .video-container{
+        margin-top:3.5vw;
+    }
 }
+
+@media only screen and (max-width: 25em) { 
+   #h1-pageTitle{
+       margin-top:vw;
+       padding:4vw;
+       font-size: 7vw;
+    }
+    #h6-pageTitle{
+       margin-top:-7vw;
+       font-size: 3.7vw;
+    }
+     .video-container{
+        margin-top:4.8vw;
+    }
+}
+/*end video*/
+
 
 .jumbotron h2 {
 font-size:75px;
