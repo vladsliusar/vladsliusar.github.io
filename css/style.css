@@ -495,6 +495,10 @@ body {
 #main-GWR{
     background-color: #eff1f2;
 }
+#main-Mapbox{
+    background-color: #eff1f2;
+}
+
 #form-wrapper{
     background-color: #eff1f2;
     padding-left:30px;
@@ -537,6 +541,10 @@ body {
   cursor: pointer;
 }
 #overlay8:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+#overlay8:active .overlay {
   opacity: 1;
   cursor: pointer;
 }
@@ -659,6 +667,7 @@ nav.shrink.navbar-default{
 #researchproject{
 	font-style: italic;
 	font-size: 16.5px;
+    text-align: center;
 
 }
 
@@ -690,3 +699,9 @@ nav.shrink.navbar-default{
     color: white;
 }
 /* social media icons */
+
+#UP_iframe{
+    width:100%;
+    height:500px;
+    border:none;
+}
