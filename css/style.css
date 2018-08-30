@@ -5,7 +5,7 @@
   background-color: #fff;
   border-radius: 0;
   background-image: none;
-  padding: 0.9%
+  padding: 0.9%;
 }
 
 .image_logo{
@@ -409,6 +409,7 @@ video {
     }
 }
 
+
 @media only screen and (max-width: 25em) { 
    #h1-pageTitle{
        margin-top:vw;
@@ -420,7 +421,22 @@ video {
        font-size: 3.7vw;
     }
      .video-container{
-        margin-top:4.8vw;
+        margin-top:4vw;
+    }
+}
+
+@media only screen and (max-width: 20em) { 
+   #h1-pageTitle{
+       margin-top:vw;
+       padding:4vw;
+       font-size: 7vw;
+    }
+    #h6-pageTitle{
+       margin-top:-7vw;
+       font-size: 3.7vw;
+    }
+     .video-container{
+        margin-top:4.4vw;
     }
 }
 /*end video*/
@@ -524,7 +540,10 @@ body {
   opacity: 1;
   cursor: pointer;
 }
-
+#overlay9:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
 
 /* Make the image responsive */
 .image {
@@ -553,7 +572,82 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+@media screen and (max-width: 75em) {
+    .overlay{
+        width:94%;
+        left: 15.2px;
+    }
+}
+@media screen and (max-width: 65em) {
+    .overlay{
+        width:93%;
+        left: 15.2px;
+    }
+}
 
+@media screen and (max-width: 63em) {
+    .overlay{
+        width:91.2%;
+        left: 15.2px;
+    }
+}
+
+@media screen and (max-width: 60em) {
+    .overlay{
+        width:91.2%;
+        left: 15.2px;
+    }
+}
+
+@media screen and (max-width: 50em) {
+    .overlay{
+        width:91%;
+        left: 15.2px;
+    }
+}
+@media screen and (max-width: 45em) {
+    .overlay{
+        width:90.5%;
+        left: 15.2px;
+    }
+}
+@media screen and (max-width: 40em) {
+    .overlay{
+        width:90%;
+        left: 15.2px;
+    }
+}
+@media screen and (max-width: 35em) {
+    .overlay{
+        width:89%;
+        left: 15.2px;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    .overlay{
+        width:88%;
+        left: 15.2px;
+    }
+}
+@media screen and (max-width: 25em) {
+    .overlay{
+        width:85.5%;
+        left: 15.2px;
+    }
+}
+@media screen and (max-width: 20em) {
+    .overlay{
+        width:84%;
+        left: 15.2px;
+    }
+}
+@media screen and (max-width: 18em) {
+    .overlay{
+        width:82.8%;
+        left: 15.2px;
+    }
+}
 
 /*shrink navbar on scroll down*/
 nav.shrink.navbar-default{
