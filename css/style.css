@@ -556,7 +556,9 @@ body {
   opacity: 1;
   cursor: pointer;
 }
-
+.image:hover{
+  
+}
 /* Make the image responsive */
 .image {
   display: block;
