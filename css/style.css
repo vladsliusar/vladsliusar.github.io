@@ -556,8 +556,12 @@ body {
   opacity: 1;
   cursor: pointer;
 }
+#overlay11:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
 .image:hover{
-  
+
 }
 /* Make the image responsive */
 .image {
@@ -711,3 +715,8 @@ nav.shrink.navbar-default{
     height:500px;
     border:none;
 }
+#Acadia_iframe{
+      width:100%;
+      height:500px;
+      border:none;
+  }
